@@ -1,3 +1,22 @@
+export interface Bus {
+  id: string;
+  name: string;
+  operator: string;
+  departureTime: string; 
+  arrivalTime: string;   
+  duration: string;      
+  pickup: string;
+  drop: string;
+  seatType: string;      
+  isAC: boolean;
+  price: number;         
+  seatsAvailable: number;
+  totalSeats: number;
+  rating: number;        
+  amenities: string[];   
+  busType: string;       
+}
+
 export const mockBuses: Bus[] = [
   // Existing 5 buses...
 
